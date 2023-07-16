@@ -21,6 +21,10 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <!-- works in WebStorm and other SmallIDEs -->
+        <directoryProjectGenerator implementation="com.nekofar.milad.intellij.enhance.cli.EnhanceCliProjectGenerator" />
+        <projectTemplatesFactory implementation="com.nekofar.milad.intellij.enhance.cli.EnhanceProjectTemplateFactory"/>
+        <!-- works in new IDEA wizard -->
+        <moduleBuilder builderClass="com.nekofar.milad.intellij.enhance.cli.EnhanceCliProjectModuleBuilder" />
     </extensions>
 </idea-plugin>
