@@ -3,7 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
-## [1.0.0-alpha.0] - 2023-07-16
+## [1.0.0-alpha.1] - 2023-07-16
+
+### Features
+
+- Add Enhance project generator and template factory
 
 ### Security
 
