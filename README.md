@@ -1,7 +1,7 @@
 # IntelliJ Enhance Plugin
 
-[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/00000-enhance)](https://plugins.jetbrains.com/plugin/00000-enhance)
-[![JetBrains plugins](https://img.shields.io/jetbrains/plugin/d/00000-enhance)](https://plugins.jetbrains.com/plugin/00000-enhance/versions)
+[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/22273-enhance)](https://plugins.jetbrains.com/plugin/22273-enhance)
+[![JetBrains plugins](https://img.shields.io/jetbrains/plugin/d/22273-enhance)](https://plugins.jetbrains.com/plugin/22273-enhance/versions)
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/KartanHQ/intellij-enhance/build.yml?branch=master)](https://github.com/KartanHQ/intellij-enhance/actions/workflows/build.yml)
 [![GitHub](https://img.shields.io/github/license/KartanHQ/intellij-enhance)](https://github.com/KartanHQ/intellij-enhance/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40nekofar-1DA1F2?logo=twitter&style=flat)](https://twitter.com/nekofar)
