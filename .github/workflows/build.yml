@@ -58,7 +58,7 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.0.0
 
       # Validate wrapper
       - name: Gradle Wrapper Validation
@@ -73,7 +73,7 @@ jobs:
 
       # Setup Gradle
       - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2.7.0
+        uses: gradle/gradle-build-action@v2.8.0
 
       # Set environment variables
       - name: Export Properties
@@ -136,7 +136,7 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.0.0
 
       # Setup Java environment for the next steps
       - name: Setup Java
@@ -147,7 +147,7 @@ jobs:
 
       # Setup Gradle
       - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2.7.0
+        uses: gradle/gradle-build-action@v2.8.0
 
       # Run tests
       - name: Run Tests
@@ -180,7 +180,7 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.0.0
 
       # Setup Java environment for the next steps
       - name: Setup Java
@@ -209,7 +209,7 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.0.0
 
       # Setup Java environment for the next steps
       - name: Setup Java
@@ -220,7 +220,7 @@ jobs:
 
       # Setup Gradle
       - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2.7.0
+        uses: gradle/gradle-build-action@v2.8.0
 
       # Cache Plugin Verifier IDEs
       - name: Setup Plugin Verifier IDEs Cache
@@ -254,7 +254,7 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.0.0
 
       # Setup Java environment for the next steps
       - name: Setup Java
