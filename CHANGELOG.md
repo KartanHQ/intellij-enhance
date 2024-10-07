@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+## [1.1.0] - 2024-10-07
+
+### Features
+
+- Add `messagePointer` function
+
 ## [1.0.8] - 2024-10-05
 
 ### Bug Fixes
